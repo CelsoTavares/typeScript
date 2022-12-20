@@ -3,16 +3,16 @@
 // @useState
 
 // Factory
-// function Logger(prefix: string) {
-//  return (target) => {
+function Logger(prefix: string) {
+ return (target) => {
 
-//    console.log(`${prefix} + ${target}`);
-//  };
+   console.log(`${prefix} + ${target}`);
+ };
 
-// }
+}
 
-// @Logger('awesome')
-// class Foo {}
+@Logger('awesome')
+class Foo {}
 
 // Class decorator
 

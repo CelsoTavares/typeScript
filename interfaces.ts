@@ -42,9 +42,6 @@ class CreateGame implements Game {
 
 }
 
-
-
-
 if(tlou.getSimilars){
   tlou.getSimilars(tlou.title)
 }

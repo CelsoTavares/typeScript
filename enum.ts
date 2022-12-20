@@ -19,7 +19,7 @@ enum StatusCodes {
 }
 
 console.log(StatusCodes.NotFound);
-console.log(StatusCodes.Success);
+console.log(StatusCodes[400]);
 
 //Enums também podem conter strings. Isso é mais comum do que enumerações numéricas, devido à sua legibilidade e intenção.
 enum CardinalDirections {
